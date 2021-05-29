@@ -1,0 +1,26 @@
+.intro__title {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 92px;
+  margin-bottom: 40px;
+  line-height: 58px;
+  font-size: 54px;
+  font-weight: 900;
+  font-style: normal;
+  border: 1px solid red;
+}
+
+@media all and (max-width: 768px) {
+  .intro__title {
+    font-size: calc(5vw + 16.3px);
+  }
+}
+
+@media all and (max-width: 320px) {
+  .intro__title{
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 70px;
+  }
+}

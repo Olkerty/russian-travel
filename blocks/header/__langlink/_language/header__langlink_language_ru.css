@@ -1,0 +1,12 @@
+.header__langlink_language_ru {
+  text-align: end;
+  text-decoration: underline;
+}
+
+@media all and (max-width: 320px) {
+  .header__langlink_language_ru {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}

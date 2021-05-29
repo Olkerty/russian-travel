@@ -1,0 +1,13 @@
+.intro {
+  border: 1px solid red;
+  width: 77%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media all and (max-width: 1024px) {
+  .intro {
+    width: 90.6%;
+  }
+}

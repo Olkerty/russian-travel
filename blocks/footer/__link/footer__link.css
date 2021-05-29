@@ -1,0 +1,16 @@
+.footer__link {
+  margin-right: 18px;
+}
+
+@media all and (max-width: 768px) {
+  .footer__link {
+    font-size: calc(-1.8vw + 29.7px);
+    line-height: calc(-1.8vw + 29.7px);
+  }
+}
+
+@media all and (max-width: 600px) {
+  .footer__link {
+    margin-bottom: 32px;
+  }
+}

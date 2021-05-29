@@ -1,0 +1,11 @@
+.body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2A2C2F;
+  color: white;
+  border: 1px solid blue;
+  font-family: Inter;
+}

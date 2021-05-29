@@ -1,0 +1,9 @@
+.header {
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+  width: 92.5%;
+}

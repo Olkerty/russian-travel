@@ -1,0 +1,16 @@
+.cover {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(62.5vw + 384px);
+  height: calc(39vw + 240px);
+  position: relative;
+}
+
+@media all and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    height: 62.5vw;
+  }
+}

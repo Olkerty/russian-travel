@@ -1,0 +1,27 @@
+.places {
+  border: 1px solid red;
+  width: calc(21.8vw + 704px);
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 80px;
+}
+
+@media all and (max-width: 1024px) {
+  .places {
+    width: calc(81.25vw + 96px);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .places {
+    width: calc(89.2vw + 34.3px);
+    grid-row-gap: 72px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .places {
+    width: 100%;
+    grid-row-gap: 50px;
+  }
+}
