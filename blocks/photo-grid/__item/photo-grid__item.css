@@ -1,12 +1,14 @@
 .photo-grid__item {
+  margin: 0;
+  padding:0 ;
   width: calc(-6.25vw + 364px);
   height: calc(-4.687vw + 273px);
-  border: 1px solid red;
+  overflow: hidden;
 }
 
 @media all and (max-width: 1024px) {
   .photo-grid__item {
-    width: calc(-20.31vw + 508px);
+    width:  calc(-20.31vw + 508px);
     height: calc(-15.23vw + 381px);
   }
 }
@@ -18,9 +20,9 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 340px) {
   .photo-grid__item {
-    width: 100%;
+    width: calc(100vw - 32px);
     height: 216px;
   }
 }

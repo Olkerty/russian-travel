@@ -1,11 +1,18 @@
 .cover {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: calc(62.5vw + 384px);
   height: calc(39vw + 240px);
   position: relative;
+}
+
+.cover:hover {
+  cursor: pointer;
+}
+
+.cover:hover .cover__image{
+  opacity: 0.15;
 }
 
 @media all and (max-width: 1024px) {

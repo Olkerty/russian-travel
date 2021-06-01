@@ -1,5 +1,4 @@
 .places {
-  border: 1px solid red;
   width: calc(21.8vw + 704px);
   display: grid;
   grid-template-columns: auto;
@@ -14,7 +13,7 @@
 
 @media all and (max-width: 768px) {
   .places {
-    width: calc(89.2vw + 34.3px);
+    width: calc(89.2vw + 14.3px); /*calc(89.2vw + 34.3px)*/
     grid-row-gap: 72px;
   }
 }

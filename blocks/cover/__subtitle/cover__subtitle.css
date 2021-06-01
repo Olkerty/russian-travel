@@ -8,11 +8,18 @@
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
+  width: 360px;
 }
 
+@media all and (max-width: 768px) {
+  .cover__subtitle {
+    width: calc(16vw + 236.5px);
+  }
+}
 @media all and (max-width: 320px) {
   .cover__subtitle {
     line-height: 16px;
     font-size: 14px;
+    width: 288px;
   }
 }

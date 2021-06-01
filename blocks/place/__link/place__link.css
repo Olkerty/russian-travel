@@ -1,7 +1,23 @@
 .place__link {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
   color: white;
   margin-top: 12px;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition-delay: 0.2s;
+}
+
+.place__link:visited {
+  color: white;
+}
+
+.place__link:hover {
+  color: white;
+  opacity: 0.5;
 }
