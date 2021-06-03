@@ -1,8 +1,28 @@
 .header__langlink {
-  font-family: Inter;
+  color: white;
+  border: 1px solid red;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
+  transition-delay: 0.2s;
+}
+
+.header__langlink:hover {
+  cursor: pointer;
+  color: white;  
+  opacity: 0.8;
+}
+
+.header__langlink:visited {
+  color: white;
+}
+
+@media all and (max-width: 320px) {
+  .header__langlink {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+  }
 }

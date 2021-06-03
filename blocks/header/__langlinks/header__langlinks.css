@@ -1,5 +1,11 @@
 .header__langlinks {
-  display: flex;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 18px;
   color: white;
   justify-content: space-between;
   align-items: flex-end;

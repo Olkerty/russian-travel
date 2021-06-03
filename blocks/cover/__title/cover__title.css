@@ -1,7 +1,6 @@
 .cover__title {
   margin: calc(19.5vw - 5px) auto 32px;
-  font-family: Inter;
-  width: 560px;
+  max-width: 560px;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
@@ -10,13 +9,9 @@
   text-align: center;
 }
 
-.cover__title:hover {
-  opacity: 0.99;
-}
-
 @media all and (max-width: 1024px) {
   .cover__title {
-    margin-top: calc(31.2vw - 125);
+    margin-top: calc(31.2vw - 125px);
   }
 }
 

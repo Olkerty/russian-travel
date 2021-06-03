@@ -7,14 +7,15 @@
   <title>Путешествия по России</title>
 </head>
 <body class="body">
-  <header class="header">
-    <img src="./images/__logo.png" class="logo logo_place_header" alt="Рисунок России">
-    <div class="header__langlinks">
-      <div class="header__langlink header__langlink_language_ru">Ru</div>
-      <div class="header__langlink header__langlink_language_en">En</div>
-    </div>
-  </header>
   <div class="page">
+    <header class="header">
+      <img src="./images/__logo.svg" class="logo" alt="Рисунок России">
+      <ul class="header__langlinks">
+        <li ><a href="#" class="header__langlink header__langlink_active">Ru</a></li>
+        <li ><a href="#" class="header__langlink">En</a></li>
+      </ul>
+    </header>
+    <main class="content">
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь</p>
@@ -63,14 +64,14 @@
         <h3 class="place__title">
           Куршская коса
         </h3>
-        <div class="place__first-column">
+        <div class="place__lefttop-column">
           <p class="place__url-heading">URL</p>
           <a class="place__link" href="http://park-kosa.ru">
             park-kosa.ru
           </a>
         </div>
         <img src="./images/trees-in-water.png" class="place__image" alt="Деревья в воде">
-        <div class="place__second-column">
+        <div class="place__rightbottom-column">
           <p class="place__paragraph">
             Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.
           </p>
@@ -83,14 +84,14 @@
         <h3 class="place__title">
           Кольский
         </h3>
-        <div class="place__first-column">
+        <div class="place__lefttop-column">
           <p class="place__url-heading">URL</p>
           <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">
             National Geographic
           </a>
         </div>
         <img src="./images/snow-mountain.png" class="place__image" alt="Горы в снегу">
-        <div class="place__second-column">
+        <div class="place__rightbottom-column">
           <p class="place__paragraph">
             Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.
           </p>
@@ -103,14 +104,14 @@
         <h3 class="place__title">
           Алтай
         </h3>
-        <div class="place__first-column">
+        <div class="place__lefttop-column">
           <p class="place__url-heading">URL</p>
           <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">
             Facebook
           </a>
         </div>
         <img src="./images/computer-in-the-forest.png" class="place__image" alt="Компьютер в лесу">
-        <div class="place__second-column">
+        <div class="place__rightbottom-column">
           <p class="place__paragraph">
             Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.
           </p>
@@ -123,14 +124,14 @@
         <h3 class="place__title">
           Зимний Байкал
         </h3>
-        <div class="place__first-column">
+        <div class="place__lefttop-column">
           <p class="place__url-heading">URL</p>
           <a class="place__link" href="https://vk.com/baikalmile">
             https://vk/com/baikalmile
           </a>
         </div>
         <img src="./images/traces-in-the-ice.png" class="place__image" alt="Следы на льду">
-        <div class="place__second-column">
+        <div class="place__rightbottom-column">
           <p class="place__paragraph">
             Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
           </p>
@@ -143,14 +144,14 @@
         <h3 class="place__title">
           Карелия
         </h3>
-        <div class="place__first-column">
+        <div class="place__lefttop-column">
           <p class="place__url-heading">URL</p>
           <a class="place__link" href="http://vodlozero.ru">
             http://vodlozero.ru/
           </a>
         </div>
         <img src="./images/river-in-the-forest.png" class="place__image" alt="Река в лесу">
-        <div class="place__second-column">
+        <div class="place__rightbottom-column">
           <p class="place__paragraph">
             Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
           </p>
@@ -158,13 +159,15 @@
       </div>
     </section>
     <section class="cover">
-      <a class="cover__image" href="https://stampsy.com/na-elektrichkakh-do-baikala"></a>
-      <h2 class="cover__title">До Байкала «на собаках» </h2>
-      <p class="cover__subtitle">
-        По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-      </p>
+      <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+  <h2 class="cover__title">До Байкала «на собаках» </h2>
+  <p class="cover__subtitle">
+    По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
+  </p>
+      </a>
     </section>
-    <footer class="footer">
+      </main>
+    <footer class="footer page__footer">
       <nav class="footer__links">
         <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
         <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
@@ -172,9 +175,9 @@
         <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
         <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
       </nav>
-      <div class="footer__copyright">
+      <p class="footer__copyright">
         © 2021. Впишите своё имя
-      </div>
+      </p>
     </footer>
   </div>
 </body>

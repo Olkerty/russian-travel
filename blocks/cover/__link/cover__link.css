@@ -1,0 +1,17 @@
+.cover__link {
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  color: white;
+  text-decoration: none;
+  background:rgba(42, 44, 47,0.3);
+  border: 1px solid red;
+}
+
+.cover__link:hover {
+  background: rgba(42, 44, 47,0.8);
+}
+
+.cover__link:visited {
+  color: white;
+}

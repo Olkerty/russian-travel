@@ -1,14 +1,33 @@
 .lead__caption {
-  position: absolute;
+  max-width: 159px;
   margin: 0;
   padding: 0;
-  left: 0;
-  bottom: 0;
-  font-family: Inter;
+  margin-right: calc(100% - 159px);
+  margin-top: -20px;
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 0.15em;
   text-align: left;
+}
+
+@media all and (max-width: 1024px) {
+  .lead__caption {
+    margin-left: calc(-9.375vw + 96px);
+    margin-right: calc(100% - 159px + 9.375vw - 96px);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .lead__caption {
+    margin-left: calc(1.78vw + 10.28px);
+    margin-right: calc(100% - 159px - 1.78vw - 10.28px);
+  }
+}
+
+@media all and (max-width: 320px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
 }
