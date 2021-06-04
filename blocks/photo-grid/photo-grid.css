@@ -1,5 +1,4 @@
 .photo-grid {
-  border: 1px solid green;
   width: calc(100vw - 96px);
   display: grid;
   grid-template-columns: repeat(auto-fit,calc(-6.25vw + 364px)); /*284px*/

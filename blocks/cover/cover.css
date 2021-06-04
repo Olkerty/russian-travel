@@ -1,12 +1,11 @@
 .cover {
-  border: 1px solid green;
   width: calc(62.5vw + 384px);
   min-height: calc(39vw + 240px);
   height: 1px;
   position: relative;
   z-index: 1;
   background-image: url("../../images/to-Baikal-on-dogs.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
