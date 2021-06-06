@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: calc(62.5vw + 384px);
+  width: calc(62.5vw + 368px);
   min-height: 57.8vw;
   color: white;
   z-index: 0;
@@ -13,6 +13,12 @@
   background-image: url("../../../images/to-Baikal-on-dogs.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media all and (min-width: 1280px) {
+  .cover__link {
+    max-width: 1280px;
+  }
 }
 
 @media all and (max-width: 1024px) {
