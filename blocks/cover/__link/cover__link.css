@@ -5,17 +5,32 @@
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 100%;
-  min-height: 100%;
+  width: calc(62.5vw + 384px);
+  min-height: 57.8vw;
   color: white;
+  z-index: 0;
   text-decoration: none;
-  background:rgba(42, 44, 47,0.3);
+  background-image: url("../../../images/to-Baikal-on-dogs.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.cover__link:hover {
+@media all and (max-width: 1024px) {
+  .cover__link {
+    width: 100%;
+    min-height: 62.5vw;
+  }   
+}
+
+.cover__link::before {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: rgba(42, 44, 47,0.3);
+}
+
+.cover__link:hover::before {
   background: rgba(42, 44, 47,0.8);
-}
-
-.cover__link:visited {
-  color: white;
 }

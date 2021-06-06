@@ -4,5 +4,23 @@
   display: flex;
   justify-content: space-between;
   margin-top: 28px;
-  width: 92.5%;
+  width: 92.5vw;
+}
+
+@media all and (max-width:1024px ) {
+  .header {
+    width: 90.6vw;
+  }
+}
+
+@media all and (max-width: 768px ) {
+  .header {
+    width: 93.7vw;
+  }
+}
+
+@media all and (max-width:320px ) {
+  .header {
+    width: 90vw;
+  }
 }

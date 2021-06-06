@@ -1,12 +1,33 @@
 .footer {
-  width: 92.5%;
+  width: 92.5vw;
   display: flex;
   justify-content: space-between;
   align-content: center;
+  margin-left: 16px;
+}
+
+@media all and (max-width:1024px ) {
+  .footer {
+    width: 90.6vw;
+  }
+}
+
+@media all and (max-width: 768px ) {
+  .footer {
+    width: 93.7vw;
+  }
 }
 
 @media all and (max-width: 650px) {
   .footer {
+    align-self: flex-start;
     flex-direction: column;
+    margin-bottom: 24px;
+  }
+}
+
+@media all and (max-width:320px ) {
+  .footer {
+    width: 58.2vw;
   }
 }
