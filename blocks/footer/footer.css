@@ -29,6 +29,7 @@
     align-self: flex-start;
     flex-direction: column;
     margin-bottom: 24px;
+    width: 93%;
   }
 }
 

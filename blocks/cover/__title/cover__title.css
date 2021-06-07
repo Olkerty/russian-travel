@@ -9,6 +9,12 @@
   text-align: center;
 }
 
+@media all and (min-width: 1280px) {
+  .cover__title {
+    margin: 244px auto 32px;
+  }
+}
+
 @media all and (max-width: 1024px) {
   .cover__title {
     margin-top: calc(31.2vw - 125px);
