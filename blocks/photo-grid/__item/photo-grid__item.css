@@ -6,6 +6,13 @@
   overflow: hidden;
 }
 
+@media all and (min-width: 1280px) {
+  .photo-grid__item{
+    width: 284px;
+    height: 213px;
+  }
+}
+
 @media all and (max-width: 1024px) {
   .photo-grid__item {
     width:  calc(-20.31vw + 508px);
